@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  jumbotronImagePath = '../assets/tuscany_vines.jpg';
   title = 'ali-jake-wedding';
 }
