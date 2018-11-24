@@ -6,9 +6,3 @@ a {
   letter-spacing: .25em;
   text-transform: uppercase;
 }
-
-@media (min-width: 979px) {
-  ul.navbar-nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
-  }
-}
