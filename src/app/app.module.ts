@@ -10,6 +10,8 @@ import { TuscanyComponent } from './tuscany/tuscany.component';
 import { MinnesotaComponent } from './minnesota/minnesota.component';
 import { RegistryComponent } from './registry/registry.component';
 import { AboutComponent } from './about/about.component';
+import { RemainderComponent } from './tuscany/remainder/remainder.component';
+import { AccomadationsComponent } from './tuscany/accomadations/accomadations.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AboutComponent } from './about/about.component';
     TuscanyComponent,
     MinnesotaComponent,
     RegistryComponent,
-    AboutComponent
+    AboutComponent,
+    RemainderComponent,
+    AccomadationsComponent
   ],
   imports: [
     BrowserModule,

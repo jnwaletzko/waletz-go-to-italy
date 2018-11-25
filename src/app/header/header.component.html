@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#"><img [src]="navigationImagePath" style="max-height: 50px;"></a>
+    <a class="navbar-brand" [routerLink]="['about']" class="cursor: pointer"><img [src]="navigationImagePath" style="max-height: 50px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" [routerLink]="['tuscany']">Details</a>
             <a class="dropdown-item" [routerLink]="['tuscany']" fragment="itinerary">Itinerary</a>
-            <a class="dropdown-item" [routerLink]="['tuscany']" fragment="accomadations">Accomodations</a>
+            <a class="dropdown-item" [routerLink]="['tuscany']" fragment="remainder">The Trip Continues</a>
           </div>
         </li>
         <li class="nav-item dropdown" routerLinkActive="active">
