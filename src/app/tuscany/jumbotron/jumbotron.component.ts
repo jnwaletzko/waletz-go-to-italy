@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jumbotron.component.css']
 })
 export class JumbotronComponent implements OnInit {
-  jumbotronImagePath = '../assets/tuscany_vines.jpg';
+  jumbotronImagePath = '../../assets/tuscany_vines.jpg';
 
   constructor() { }
 

@@ -27,7 +27,7 @@ h3 {
 }
 
 .background {
-  background: url('../../assets/tuscany_vines.jpg') no-repeat;
+  background: url('../../../assets/tuscany_vines.jpg') no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
