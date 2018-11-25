@@ -12,4 +12,11 @@ export class AccomadationsComponent implements OnInit {
   ngOnInit() {
   }
 
+  onTenutaClick() {
+    window.open('https://goo.gl/maps/K3A8BGFAd3K2', '_blank');
+  }
+
+  onDefizioClick() {
+    window.open('https://goo.gl/maps/KRy2ozuvqCP2', '_blank');
+  }
 }
