@@ -12,6 +12,7 @@ import { RegistryComponent } from './registry/registry.component';
 import { AboutComponent } from './about/about.component';
 import { RemainderComponent } from './tuscany/remainder/remainder.component';
 import { AccomadationsComponent } from './tuscany/accomadations/accomadations.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AccomadationsComponent } from './tuscany/accomadations/accomadations.co
     RegistryComponent,
     AboutComponent,
     RemainderComponent,
-    AccomadationsComponent
+    AccomadationsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

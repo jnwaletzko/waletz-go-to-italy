@@ -1,0 +1,18 @@
+.top-buffer {
+  margin-top: 75px;
+}
+
+.footer-buffer {
+  margin-top: 50px;
+}
+
+p {
+  font-family: freight-sans-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.5px;
+  letter-spacing: .02em;
+  line-height: 1.8em;
+  text-transform: none;
+  color: #000;
+}
