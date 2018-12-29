@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./remainder.component.css']
 })
 export class RemainderComponent implements OnInit {
-  remainderImagePath = '../../assets/san_gimignano.jpg';
+  remainderImagePath = 'https://i.imgur.com/DFmvlj4.jpg';
   constructor() { }
 
   ngOnInit() {

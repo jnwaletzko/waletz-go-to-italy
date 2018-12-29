@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  jumbotronImagePath = '../../assets/the_spot.jpg';
-  aliJakeImagePath = '../../assets/amazing_us.jpg';
+  jumbotronImagePath = 'https://i.imgur.com/GiRciCR.jpg';
+  aliJakeImagePath = 'https://i.imgur.com/cEbQg4l.jpg';
   constructor() { }
 
   ngOnInit() {
