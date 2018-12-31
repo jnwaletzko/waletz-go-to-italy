@@ -1,0 +1,51 @@
+h1 {
+  font-family: freight-big-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+  letter-spacing: .02em;
+  line-height: 1.25em;
+  text-transform: none;
+}
+
+.top-title {
+  color: #e60004;
+}
+
+h2 {
+  font-family: freight-big-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: .02em;
+  line-height: 1.25em;
+  text-transform: none;
+  color: #e60004;
+}
+
+
+h3 {
+  font-family: freight-sans-pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .25em;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.background {
+  background: url('https://i.imgur.com/5Tmlx8g.jpg') no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+  width: 100%;
+}

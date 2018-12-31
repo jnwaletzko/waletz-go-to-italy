@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./minnesota.component.css']
 })
 export class MinnesotaComponent implements OnInit {
-
+  jumbotronImagePath = 'https://i.imgur.com/5Tmlx8g.jpg';
   constructor() { }
 
   ngOnInit() {
