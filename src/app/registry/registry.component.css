@@ -1,0 +1,13 @@
+h1 {
+  font-family: freight-big-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+  letter-spacing: .02em;
+  line-height: 1.25em;
+  text-transform: none;
+}
+
+.top-title {
+  color: #e60004;
+}
