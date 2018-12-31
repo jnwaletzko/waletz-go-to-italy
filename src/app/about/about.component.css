@@ -54,13 +54,24 @@ h3 {
   margin-left:auto
 }
 
-.background {
-  background: url('https://i.imgur.com/GiRciCR.jpg') no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
-  width: 100%;
+.hidden-pic {
+  margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 420px) {
+  .background {
+    background: url('https://i.imgur.com/GiRciCR.jpg') no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    width: 100%;
+  }
+
+  .hidden-pic {
+    visibility: hidden;
+    margin-bottom: 0px;
+  }
 }
 
 p {
