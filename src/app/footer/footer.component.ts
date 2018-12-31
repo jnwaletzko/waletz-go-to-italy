@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  special_day = new Date('2019-5-28');
+  special_day = new Date(2019, 4, 28);
   time: number;
   counter$: Observable<number>;
   subscription: Subscription;
