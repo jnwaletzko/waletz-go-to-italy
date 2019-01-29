@@ -11,3 +11,15 @@ h1 {
 .top-title {
   color: #e60004;
 }
+
+.image {
+  height: 400px;
+  width: 500px;
+}
+
+.image img {
+  text-align: center;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
