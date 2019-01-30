@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   jumbotronImagePath = 'https://i.imgur.com/GiRciCR.jpg';
-  aliJakeImagePath = 'https://i.imgur.com/cEbQg4l.jpg';
+  // aliJakeImagePath = 'https://i.imgur.com/cEbQg4l.jpg';
+  aliJakeImagePath = 'https://i.imgur.com/CyKKbXn.jpg';
   constructor() { }
 
   ngOnInit() {
