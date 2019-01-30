@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accomadations.component.css']
 })
 export class AccomadationsComponent implements OnInit {
+  remainderImagePath = 'https://i.imgur.com/DFmvlj4.jpg';
 
   constructor() { }
 

@@ -34,6 +34,16 @@ h3 {
   text-transform: uppercase;
 }
 
+h5 {
+  font-family: freight-sans-pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .25em;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
 p {
   font-family: freight-sans-pro;
   font-weight: 400;
