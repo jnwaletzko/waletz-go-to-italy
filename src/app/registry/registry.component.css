@@ -14,7 +14,7 @@ h1 {
 
 .image {
   height: 400px;
-  width: 500px;
+  width: auto;
 }
 
 .image img {
