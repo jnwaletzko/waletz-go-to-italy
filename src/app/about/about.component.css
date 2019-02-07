@@ -15,10 +15,12 @@ h1 {
   letter-spacing: .02em;
   line-height: 1.25em;
   text-transform: none;
+
 }
 
 .top-title {
-  color: rgb(94, 94, 94);
+  /* color: rgb(94, 94, 94); */
+  color: #c20307;
 }
 
 .the-couple {
