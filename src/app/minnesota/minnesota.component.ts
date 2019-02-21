@@ -12,4 +12,8 @@ export class MinnesotaComponent implements OnInit {
   ngOnInit() {
   }
 
+  onWindsongClick() {
+    window.open('https://goo.gl/maps/v6HbMEoYYqT2', '_blank');
+  }
+
 }

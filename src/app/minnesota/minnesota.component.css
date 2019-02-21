@@ -16,7 +16,7 @@ h2 {
   font-family: freight-big-pro;
   font-weight: 400;
   font-style: normal;
-  font-size: 45px;
+  font-size: 30px;
   letter-spacing: .02em;
   line-height: 1.25em;
   text-transform: none;
@@ -64,6 +64,25 @@ p {
 
 .hidden-pic {
   margin-bottom: 100px;
+}
+
+.dancing-title {
+  font-size: 35px;
+}
+
+.row-buffer { margin-top: 65px; }
+
+.btn {
+  display: inline-block;
+  border: 2px solid #000;
+  font-family: freight-sans-pro;
+  font-size: 11px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-align: center;
+  white-space: normal;
 }
 
 @media only screen and (min-width: 420px) {
