@@ -8,12 +8,32 @@ h1 {
   text-transform: none;
 }
 
+h5 {
+  font-weight: normal;
+}
+
+p {
+  font-family: freight-sans-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20.5px;
+  letter-spacing: .01em;
+  line-height: 1.8em;
+  text-transform: none;
+  color: #000;
+}
+
 .top-title {
   color: #e60004;
 }
 
+.row-top-buffer { margin-top: 25px; }
+.row-buffer { margin-top: 50px; }
+
+.smaller { max-width: 800px;}
+
 .image {
-  height: 400px;
+  height: 300px;
   width: auto;
 }
 
